@@ -1,0 +1,9 @@
+Model,Kind,Settings,CV_Accuracy,CV_Accuracy_Std,CV_Precision,CV_Recall,CV_F1,CV_ROC_AUC,Train_Accuracy,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_ROC_AUC
+Naive Bayes,Baseline,alpha=1.0,0.8438,0.0145,0.8504,0.835,0.8422,0.9145,0.9294,0.8175,0.8256,0.805,0.8152,0.917
+Logistic Regression,Baseline,C=10,0.875,0.012,0.8693,0.8838,0.8762,0.9431,1.0,0.8625,0.8469,0.885,0.8655,0.9456
+Decision Tree (single),Baseline,max_depth=10,0.6462,0.0139,0.6335,0.6938,0.6612,0.6293,0.8881,0.6425,0.6267,0.705,0.6635,0.6446
+Bagging (trees),Ensemble,defaults,0.7888,0.0111,0.8191,0.7412,0.7781,0.8692,1.0,0.8,0.7703,0.855,0.8104,0.8899
+Random Forest,Ensemble,defaults,0.8306,0.0367,0.8596,0.79,0.823,0.9142,1.0,0.8275,0.8359,0.815,0.8253,0.9219
+AdaBoost,Ensemble,defaults,0.7869,0.0314,0.7829,0.7938,0.7879,0.8663,0.9194,0.8075,0.7971,0.825,0.8108,0.8883
+Gradient Boosting,Ensemble,defaults,0.7869,0.0268,0.7813,0.7962,0.7886,0.8724,0.975,0.8075,0.7887,0.84,0.8136,0.8876
+Voting (LR + NB + RF),Ensemble,defaults,0.8731,0.0166,0.8749,0.8712,0.8729,0.9406,1.0,0.855,0.848,0.865,0.8564,0.9439

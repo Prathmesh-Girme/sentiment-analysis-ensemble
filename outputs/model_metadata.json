@@ -1,0 +1,59 @@
+{
+  "model_name": "Logistic Regression",
+  "model_class": "LogisticRegression",
+  "model_parameters": {
+    "C": 10,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 2000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": 42,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "selection": {
+    "rule": "best cross-validated accuracy on training data",
+    "cv_accuracy": 0.875
+  },
+  "trained_at": "2026-11-06T07:16:26",
+  "python_version": "3.12.3",
+  "scikit_learn_version": "1.8.0",
+  "pandas_version": "3.0.2",
+  "training_reviews": 1600,
+  "vocabulary_size": 5000,
+  "class_labels": {
+    "0": "Negative",
+    "1": "Positive"
+  },
+  "decision_threshold": 0.5,
+  "uncertain_band": 0.1,
+  "training_domain": "English movie reviews (NLTK movie_reviews corpus)",
+  "test_metrics": {
+    "accuracy": 0.8625,
+    "precision": 0.84688995215311,
+    "recall": 0.885,
+    "f1": 0.8655256723716381,
+    "roc_auc": 0.9456000000000001,
+    "confusion_matrix": [
+      [
+        168,
+        32
+      ],
+      [
+        23,
+        177
+      ]
+    ],
+    "accuracy_95_interval": [
+      0.8275,
+      0.895
+    ],
+    "train_accuracy": 1.0
+  }
+}
